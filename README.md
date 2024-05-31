@@ -14,7 +14,6 @@
 
 
 
-
 ## Routes
 ### Admin Routes:
 
@@ -39,6 +38,7 @@ Output:{message:"Course created successfully", courseId:1}
  Input: Headers:{username:"abc", password:"xyz"}
  Input: Body:{title:'updated course title' , description:"updated description",...}
 
-
-
+# Note :
+- We need an authentication system which checks whether user is registered or not... 
+- here we can use a middleware. and note that here are using route specific middleware for authentication. means only specific routes will undergo the authentication and not all.
 
